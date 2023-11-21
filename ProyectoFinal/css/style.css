@@ -1,0 +1,108 @@
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+td{
+    vertical-align: top;
+}
+
+   
+#Texto {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+#encabezado{
+    background: #ff8844;
+    height: 250px;
+    text-align: center;
+    background-image: url("../img/baner.jpg");
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: center;
+}
+
+#menu{
+    height: 40px;
+    position: relative;
+    top:230px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ee7926;
+}
+li{
+    float:left;
+}
+li a{ 
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+li a:hover{
+    background-color: #111111;
+    box-shadow: 10px 10px 20px #ee7926;
+    transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+}
+#datos{
+    width: 75%;
+    background-color: hsl(40, 53%, 97%);
+    height: 990px;
+    margin: auto;
+    opacity: 0.8;
+    color: #ee7926;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+    line-height: 1.6em;
+}
+a {
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #ee7926;
+    color: #41403f;
+    text-decoration: none;
+}
+a:hover {
+    background-color: transparent;
+    border: 2px solid #333333;
+    color: #ee7926;
+    
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+#Costado-Usuario{
+    width: 100%;
+    background-color: #ee7926;
+
+}
